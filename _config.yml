@@ -1,0 +1,25 @@
+plugins:
+  - jekyll-seo-tag
+  
+collections:
+  work:
+    output: true
+
+social:
+  name: А510
+  links:
+    - https://www.facebook.com/a510ru
+    - http://instagram.com/a510ru
+
+logo: /images/logo.png
+url: https://work.a510.ru
+
+title: ""
+lang: "en_US"
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image: /images/icon-512.png
