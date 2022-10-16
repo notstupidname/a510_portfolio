@@ -1,13 +1,15 @@
 <header id="header">
-    <a href="/" class="logo" data-counter="0" onmouseenter="this.dataset.counter=parseInt(Math.floor(Math.random()*5));">
+    <a href="/" class="logo" data-counter="0"
+        onmouseenter="this.dataset.counter=parseInt(Math.floor(Math.random()*5));">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" style="stroke-width:30px;fill:none;">
             <title>A510 Architectural Bureau</title>
-            <path id="sh-1" d="M50 455v-253.1l202.5 -151.9 202.5 151.9v253.1z" style="fill:currentColor"/>
-            <path id="sh-2" d="M50 455v-253.1l202.5 -151.9 202.5 151.9v253.1z" transform="translate(0,495)"/>
-            <path id="sh-3" d="M50 455v-253.1l202.5 -151.9 202.5 151.9v253.1z" transform="translate(495)"/>
-            <path id="sh-4" d="M50 455v-253.1l202.5 -151.9 202.5 151.9v253.1z" transform="translate(495,495)"/>
+            <path id="sh-1" d="M50 455v-253.1l202.5 -151.9 202.5 151.9v253.1z" style="fill:currentColor" />
+            <path id="sh-2" d="M50 455v-253.1l202.5 -151.9 202.5 151.9v253.1z" transform="translate(0,495)" />
+            <path id="sh-3" d="M50 455v-253.1l202.5 -151.9 202.5 151.9v253.1z" transform="translate(495)" />
+            <path id="sh-4" d="M50 455v-253.1l202.5 -151.9 202.5 151.9v253.1z" transform="translate(495,495)" />
         </svg>
     </a>
-    <a href="/"{%if page.url == '/'%} class="current"{%endif%}>Projects</a>
-    <a href="/contact"{%if page.url contains 'contact'%} class="current"{%endif%}>Contact</a>
+    <a href="/" {%if page.url=='/' %} class="current" {%endif%}>Projects</a>
+    <p>/</p>
+    <a href="/2" {%if page.url contains 'contact' %} class="current" {%endif%}>Contact</a>
 </header>
