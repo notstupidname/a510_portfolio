@@ -31,7 +31,7 @@ html {
     fill: var(--text-color);
     stroke: var(--text-color);
     --column-width: 50rem;
-    --pad: 2rem;
+    --pad: 1.5rem;
 }
 
 ::selection {
@@ -102,7 +102,7 @@ button {
 
 body {
     min-height: 100vh;
-    text-rendering: optimizeSpeed;
+    text-rendering: optimizeLegibility;
 }
 
 img,
@@ -310,7 +310,7 @@ main {
 }
 
 #footer {
-    padding: 4rem 4rem 2rem;
+    padding: var(--pad);
     opacity: 0.75;
     font-size: 80%;
     text-align: right;
@@ -363,6 +363,9 @@ main {
     gap: 1rem;
 }
 
+.projects-grid .xxl {
+    grid-column: span 6;
+}
 .projects-grid .big {
     grid-column: span 4;
     grid-row: span 2;
@@ -394,6 +397,7 @@ main {
     .projects-grid img {
         aspect-ratio: 16/9;
         object-fit: cover;
+        width: 100%;
     }
 
     .projects-grid .caption {
