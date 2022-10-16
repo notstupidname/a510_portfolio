@@ -260,12 +260,12 @@ body {
     align-content: flex-end;
     align-items: center;
     padding: calc(var(--pad)*0.75) var(--pad);
-    position: sticky;
+    /* position: sticky;
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
-    background: var(--back-color);
+    background: var(--back-color); */
     font-size: 1.5rem;
 }
 
@@ -360,7 +360,7 @@ main {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-auto-flow: dense;
-    gap: 3rem;
+    gap: 1rem;
 }
 
 .projects-grid .xxl {
