@@ -191,7 +191,7 @@ hr {
 a, .button {
     color: var(--text-color);
     text-decoration: none;
-    transition: background-position .3s ease-in-out;
+    transition: background-position .3s ease-in-out, opacity .3s ease-in-out;
     -webkit-tap-highlight-color: transparent;
     cursor: pointer;
     background-image: linear-gradient(var(--text-color) 0 0);
