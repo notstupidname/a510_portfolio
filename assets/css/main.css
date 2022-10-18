@@ -191,7 +191,7 @@ hr {
 a, .button {
     color: var(--text-color);
     text-decoration: none;
-    transition: opacity .3s ease-in-out, background-position .3s ease-in-out;;
+    transition: background-position .3s ease-in-out;
     -webkit-tap-highlight-color: transparent;
     cursor: pointer;
     background-image: linear-gradient(var(--text-color) 0 0);
@@ -201,7 +201,7 @@ a, .button {
 }
 
     a:not(.logo):hover, .button:hover {
-        opacity: 0.85;
+        /* opacity: 0.85; */
         background-position: 100% 100%;
     }
 
@@ -353,6 +353,19 @@ main {
     width: 100%;
     height: 100%;
 }
+
+    @media (pointer: fine) and (hover: hover) {
+
+        .projects img {
+            filter: saturate(0.5);
+            transition: all .3s ease-in;
+        }
+
+        .projects > a:hover img {
+            filter: none;
+        }
+
+    }
 
 .projects .caption {
     display: flex;
