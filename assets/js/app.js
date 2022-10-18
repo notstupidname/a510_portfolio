@@ -167,13 +167,13 @@
 
     // Grid change on logo
 
-    const logo = document.querySelector('#header .logo');
-    const projectsGrid = document.querySelector('.projects');
-    logo.addEventListener('click', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        projectsGrid.classList.toggle('simple-grid');
-        projectsGrid.classList.toggle('complex-grid');
-    });
+    // const logo = document.querySelector('#header .logo');
+    // const projectsGrid = document.querySelector('.projects');
+    // logo.addEventListener('click', (e) => {
+    //     e.preventDefault();
+    //     e.stopPropagation();
+    //     projectsGrid.classList.toggle('simple-grid');
+    //     projectsGrid.classList.toggle('complex-grid');
+    // });
 
 })();
