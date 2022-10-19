@@ -162,7 +162,7 @@
         });
     });
 
-    const hiddenDrawings = document.querySelectorAll('.svg-drawing.hidden');
+    const hiddenDrawings = document.querySelectorAll('.hidden');
     hiddenDrawings.forEach((el) => observer.observe(el));
 
     // Grid change on logo
