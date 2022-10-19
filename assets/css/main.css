@@ -188,21 +188,17 @@ hr {
     margin: 1rem 0;
 }
 
-a, .button {
+a {
     color: var(--text-color);
     text-decoration: none;
-    transition: background-position .3s ease-in-out, opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
     -webkit-tap-highlight-color: transparent;
     cursor: pointer;
-    background-image: linear-gradient(var(--text-color) 0 0);
-    background-size: 200% .1em;
-    background-position: 200% 100%;
-    background-repeat: no-repeat;
+
 }
 
-    a:not(.logo):hover, .button:hover {
-        /* opacity: 0.85; */
-        background-position: 100% 100%;
+    a:hover {
+        opacity: 0.85;
     }
 
     a:active {
@@ -269,7 +265,16 @@ body {
 
     #header a {
         text-transform: lowercase;
+        transition: background-position .3s ease-in-out, opacity .3s ease-in-out;
+        background-image: linear-gradient(var(--text-color) 0 0);
+        background-size: 200% .1em;
+        background-position: 200% 100%;
+        background-repeat: no-repeat;
     }
+
+        #header a:hover {
+            background-position: 100% 100%;
+        }
 
         #header a:not(:first-child) {
             margin: 0 0.25em;
@@ -279,9 +284,9 @@ body {
             margin-right: 0;
         }
     
-    .current {
-        background-position: bottom;
-    }
+        #header a.current {
+            background-position: 100% 100%;
+        }
 
     #header a.logo {
         background: none;
