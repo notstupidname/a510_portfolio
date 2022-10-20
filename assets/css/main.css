@@ -507,6 +507,14 @@ main {
     opacity: 1;
 }
 
+a.top {
+    width: 3rem;
+    height: 3rem;
+    stroke-width: 30px;
+    margin-top: 2rem;
+    opacity: 0.75;
+}
+
 /* Loader */
 
 @keyframes overlay-hide {
