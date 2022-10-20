@@ -434,6 +434,18 @@ main {
         grid-column: span 6;
     }
 
+    .complex-grid > a > div:first-child {
+        overflow: hidden;
+    }
+
+    .complex-grid > a img {
+        transition: all .5s ease-in-out;
+    }
+    
+    .complex-grid > a:hover img {
+        transform: scale(1.005);
+    }
+
     @media screen and (min-width: 800px) {
 
         .complex-grid {
@@ -504,7 +516,7 @@ main {
 }
 
 .show {
-    opacity: 1;
+    opacity: initial;
 }
 
 a.top {
@@ -512,8 +524,12 @@ a.top {
     height: 3rem;
     stroke-width: 30px;
     margin-top: 2rem;
-    opacity: 0.75;
+    /* opacity: 0.75; */
 }
+
+    /* a.top:hover {
+        opacity: 0.5;
+    } */
 
 /* Loader */
 
