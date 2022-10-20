@@ -7,7 +7,7 @@
         <main>
             <div class="hero">
                 {%- assign name = page.name | downcase -%}
-                <img alt="{{name}}-photo-1" title="{{name}}-photo-1" width="2560" height="1440" src="/images/projects/{{name}}/{{name}}-01_2560w.jpg" srcset="/images/projects/{{name}}/{{name}}-01_2560w.jpg 2560w, /images/projects/{{name}}/{{name}}-01_1920w.jpg 1920w, /images/projects/{{name}}/{{name}}-01_1600w.jpg 1600w, /images/projects/{{name}}/{{name}}-01_1200w.jpg 1200w, /images/projects/{{name}}/{{name}}-01_800w.jpg 800w" sizes="100vw">
+                <img alt="{{name}}-photo-1" title="{{name}}-photo-1" width="2560" height="1440" src="/images/projects/{{name}}/{{name}}-01_2560w.jpg" srcset="/images/projects/{{name}}/{{name}}-01_2560w.jpg 2560w, /images/projects/{{name}}/{{name}}-01_1920w.jpg 1920w, /images/projects/{{name}}/{{name}}-01_1600w.jpg 1600w, /images/projects/{{name}}/{{name}}-01_1200w.jpg 1200w, /images/projects/{{name}}/{{name}}-01_800w.jpg 800w" sizes="(max-width: 1600px) 90vw, 75vw">
                 <h1>{{page.name}}
                 </h1>
                 <table class="hidden">
@@ -50,7 +50,7 @@
             <div class="gallery">
                 {%-for img in array-%}
                     {% unless forloop.first %}
-                        <img class="hidden" alt="{{name}}-photo-{{forloop.index}}" title="{{name}}-photo-{{forloop.index}}" width="2560" height="1440" src="{{img}}_2560w.jpg" srcset="{{img}}_2560w.jpg 2560w, {{img}}_1920w.jpg 1920w, {{img}}_1600w.jpg 1600w, {{img}}_1200w.jpg 1200w, {{img}}_800w.jpg 800w" sizes="100vw">
+                        <img class="hidden" loading="lazy" alt="{{name}}-photo-{{forloop.index}}" title="{{name}}-photo-{{forloop.index}}" width="2560" height="1440" src="{{img}}_2560w.jpg" srcset="{{img}}_2560w.jpg 2560w, {{img}}_1920w.jpg 1920w, {{img}}_1600w.jpg 1600w, {{img}}_1200w.jpg 1200w, {{img}}_800w.jpg 800w" sizes="(max-width: 1600px) 90vw, 75vw">
                     {% endunless %}
                 {%-endfor-%}
             </div>
