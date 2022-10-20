@@ -483,6 +483,7 @@ main {
 
     .hero img {
         max-height: calc(100vh - 13.25rem);
+        inline-size: auto;
     }
 
 .gallery {
@@ -492,7 +493,8 @@ main {
 }
 
     .gallery img {
-        max-height: 95vh;
+        max-height: 90vh;
+        inline-size: auto;
     }
 
 /* Images Fade-in */

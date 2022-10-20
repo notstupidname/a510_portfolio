@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
     {% include head.html %}
+
     <body class="is-loading">
         {% include header.html %}
         <main>
-        {{content}}
+            <div class="hero">
+                {%- assign name = page.name | downcase -%}
+                <img alt="{{name}}-photo-1" title="{{name}}-photo-1" width="2560" height="1440" src="/images/projects/{{name}}/{{name}}-01_2560w.jpg" srcset="/images/projects/{{name}}/{{name}}-01_2560w.jpg 2560w, /images/projects/{{name}}/{{name}}-01_1920w.jpg 1920w, /images/projects/{{name}}/{{name}}-01_1600w.jpg 1600w, /images/projects/{{name}}/{{name}}-01_1200w.jpg 1200w, /images/projects/{{name}}/{{name}}-01_800w.jpg 800w" sizes="100vw">
+                <h1>{{page.name}}
+                </h1>
+                <table class="hidden">
+                    <tbody>
+                        <tr>
+                            <td>Area:</td>
+                            <td>{{page.area}}
+                                m2</td>
+                        </tr>
+                        <tr>
+                            <td>Location:</td>
+                            <td>{{page.location}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Year:</td>
+                            <td>{{page.year}}
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            {%-assign img_array = '' | split:','-%}
+            {%-assign url_list = page.url | split: '/'-%}
+            {%-assign project_name = url_list | last-%}
+            {%-for file in site.static_files-%}
+                {%-assign path_list = file.path | split: '/'-%}
+                {%-assign path_name = path_list | last-%}
+                {%-assign path_name = path_name | slice: 0, project_name.size-%}
+                {%-if path_name == project_name-%}
+                    {%-assign img_array = img_array | push: file.path-%}
+                {%-endif-%}
+            {%-endfor-%}
+            {%- assign tmp_array = '' | split: ','-%}
+            {%-for tmp in img_array %}
+                {%- assign tmp_name = tmp | split:'_' | first -%}
+                {%- assign tmp_array = tmp_array | push: tmp_name -%}
+            {%-endfor-%}
+            {%-assign array = tmp_array | uniq -%}
+            <div class="gallery">
+                {%-for img in array-%}
+                    {% unless forloop.first %}
+                        <img class="hidden" alt="{{name}}-photo-{{forloop.index}}" title="{{name}}-photo-{{forloop.index}}" width="2560" height="1440" src="{{img}}_2560w.jpg" srcset="{{img}}_2560w.jpg 2560w, {{img}}_1920w.jpg 1920w, {{img}}_1600w.jpg 1600w, {{img}}_1200w.jpg 1200w, {{img}}_800w.jpg 800w" sizes="100vw">
+                    {% endunless %}
+                {%-endfor-%}
+            </div>
         </main>
         {% include footer.html %}
         {% include scripts.html %}
     </body>
+
 </html>

@@ -2,7 +2,7 @@ plugins:
   - jekyll-seo-tag
   
 collections:
-  work:
+  projects:
     output: true
 
 social:
