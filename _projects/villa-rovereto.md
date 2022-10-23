@@ -1,6 +1,6 @@
 ---
-title: 'Villa Rovereto - A510 Architekts'
-description: 'Villa Rovereto - A510 Architekts'
+title: 'Villa Rovereto - A510 Architects'
+description: 'Villa Rovereto - A510 Architects'
 
 layout: project
 permalink: /projects/:path
