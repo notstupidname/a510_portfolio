@@ -1,6 +1,6 @@
 ---
-title: 'Riverside Residence - A510 Architekts'
-description: 'Riverside Residence - A510 Architekts'
+title: 'Riverside Residence - A510 Architects'
+description: 'Riverside Residence - A510 Architects'
 
 layout: project
 permalink: /projects/:path

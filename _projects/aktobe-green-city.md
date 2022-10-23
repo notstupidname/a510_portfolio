@@ -1,6 +1,6 @@
 ---
-title: 'Aktobe Green City - A510 Architekts'
-description: 'Aktobe Green City - A510 Architekts'
+title: 'Aktobe Green City - A510 Architects'
+description: 'Aktobe Green City - A510 Architects'
 
 layout: project
 permalink: /projects/:path

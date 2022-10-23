@@ -1,6 +1,6 @@
 ---
-title: 'Forestview Villa - A510 Architekts'
-description: 'Forestview Villa - A510 Architekts'
+title: 'Forestview Villa - A510 Architects'
+description: 'Forestview Villa - A510 Architects'
 
 layout: project
 permalink: /projects/:path

@@ -1,6 +1,6 @@
 ---
-title: 'Seaside Apartments - A510 Architekts'
-description: 'Seaside Apartments - A510 Architekts'
+title: 'Seaside Apartments - A510 Architects'
+description: 'Seaside Apartments - A510 Architects'
 
 layout: project
 permalink: /projects/:path

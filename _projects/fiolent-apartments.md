@@ -1,6 +1,6 @@
 ---
-title: 'Fiolent Apartments - A510 Architekts'
-description: 'Fiolent Apartments - A510 Architekts'
+title: 'Fiolent Apartments - A510 Architects'
+description: 'Fiolent Apartments - A510 Architects'
 
 layout: project
 permalink: /projects/:path

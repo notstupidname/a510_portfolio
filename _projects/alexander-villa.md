@@ -1,6 +1,6 @@
 ---
-title: 'Alexander Villa - A510 Architekts'
-description: 'Alexander Villa - A510 Architekts'
+title: 'Alexander Villa - A510 Architects'
+description: 'Alexander Villa - A510 Architects'
 
 layout: project
 permalink: /projects/:path

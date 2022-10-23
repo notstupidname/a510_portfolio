@@ -1,6 +1,6 @@
 ---
-title: 'Villa Trentino - A510 Architekts'
-description: 'Villa Trentino - A510 Architekts'
+title: 'Villa Trentino - A510 Architects'
+description: 'Villa Trentino - A510 Architects'
 
 layout: project
 permalink: /projects/:path

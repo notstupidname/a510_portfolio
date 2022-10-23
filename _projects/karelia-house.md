@@ -1,6 +1,6 @@
 ---
-title: 'Karelia House - A510 Architekts'
-description: 'Karelia House - A510 Architekts'
+title: 'Karelia House - A510 Architects'
+description: 'Karelia House - A510 Architects'
 
 layout: project
 permalink: /projects/:path

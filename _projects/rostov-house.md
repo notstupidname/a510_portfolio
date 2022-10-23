@@ -1,6 +1,6 @@
 ---
-title: 'Rostov House - A510 Architekts'
-description: 'Rostov House - A510 Architekts'
+title: 'Rostov House - A510 Architects'
+description: 'Rostov House - A510 Architects'
 
 layout: project
 permalink: /projects/:path

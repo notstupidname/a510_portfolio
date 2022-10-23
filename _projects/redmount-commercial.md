@@ -1,6 +1,6 @@
 ---
-title: 'RedMount Commercial - A510 Architekts'
-description: 'RedMount Commercial - A510 Architekts'
+title: 'RedMount Commercial - A510 Architects'
+description: 'RedMount Commercial - A510 Architects'
 
 layout: project
 permalink: /projects/:path

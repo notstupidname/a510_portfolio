@@ -1,6 +1,6 @@
 ---
-title: 'Moscow Apartments Interior - A510 Architekts'
-description: 'Moscow Apartments Interior - A510 Architekts'
+title: 'Moscow Apartments Interior - A510 Architects'
+description: 'Moscow Apartments Interior - A510 Architects'
 
 layout: project
 permalink: /projects/:path

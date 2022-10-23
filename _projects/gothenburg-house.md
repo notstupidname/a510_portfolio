@@ -1,6 +1,6 @@
 ---
-title: 'Gothenburg House - A510 Architekts'
-description: 'Gothenburg House - A510 Architekts'
+title: 'Gothenburg House - A510 Architects'
+description: 'Gothenburg House - A510 Architects'
 
 layout: project
 permalink: /projects/:path

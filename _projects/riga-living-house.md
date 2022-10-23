@@ -1,6 +1,6 @@
 ---
-title: 'Riga Living House - A510 Architekts'
-description: 'Riga Living House - A510 Architekts'
+title: 'Riga Living House - A510 Architects'
+description: 'Riga Living House - A510 Architects'
 
 layout: project
 permalink: /projects/:path

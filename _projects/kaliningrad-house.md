@@ -1,6 +1,6 @@
 ---
-title: 'Kaliningrad House - A510 Architekts'
-description: 'Kaliningrad House - A510 Architekts'
+title: 'Kaliningrad House - A510 Architects'
+description: 'Kaliningrad House - A510 Architects'
 
 layout: project
 permalink: /projects/:path

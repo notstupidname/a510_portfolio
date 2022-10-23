@@ -1,6 +1,6 @@
 ---
-title: 'Lesnoy Apart Hotel - A510 Architekts'
-description: 'Lesnoy Apart Hotel - A510 Architekts'
+title: 'Lesnoy Apart Hotel - A510 Architects'
+description: 'Lesnoy Apart Hotel - A510 Architects'
 
 layout: project
 permalink: /projects/:path

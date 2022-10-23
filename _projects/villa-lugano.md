@@ -1,6 +1,6 @@
 ---
-title: 'Villa Lugano - A510 Architekts'
-description: 'Villa Lugano - A510 Architekts'
+title: 'Villa Lugano - A510 Architects'
+description: 'Villa Lugano - A510 Architects'
 
 layout: project
 permalink: /projects/:path

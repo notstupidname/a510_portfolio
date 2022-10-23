@@ -1,6 +1,6 @@
 ---
-title: 'Vologda Co-living - A510 Architekts'
-description: 'Vologda Co-living - A510 Architekts'
+title: 'Vologda Co-living - A510 Architects'
+description: 'Vologda Co-living - A510 Architects'
 
 layout: project
 permalink: /projects/:path

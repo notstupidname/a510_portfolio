@@ -1,6 +1,6 @@
 ---
-title: 'Baltic Townhouses - A510 Architekts'
-description: 'Baltic Townhouses - A510 Architekts'
+title: 'Baltic Townhouses - A510 Architects'
+description: 'Baltic Townhouses - A510 Architects'
 
 layout: project
 permalink: /projects/:path

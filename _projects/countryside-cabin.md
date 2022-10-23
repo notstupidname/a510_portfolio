@@ -1,6 +1,6 @@
 ---
-title: 'Countryside Cabin - A510 Architekts'
-description: 'Countryside Cabin - A510 Architekts'
+title: 'Countryside Cabin - A510 Architects'
+description: 'Countryside Cabin - A510 Architects'
 
 layout: project
 permalink: /projects/:path

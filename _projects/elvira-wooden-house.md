@@ -1,6 +1,6 @@
 ---
-title: 'Elvira Wooden House - A510 Architekts'
-description: 'Elvira Wooden House - A510 Architekts'
+title: 'Elvira Wooden House - A510 Architects'
+description: 'Elvira Wooden House - A510 Architects'
 
 layout: project
 permalink: /projects/:path

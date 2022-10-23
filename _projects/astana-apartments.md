@@ -1,6 +1,6 @@
 ---
-title: 'Astana Apartments - A510 Architekts'
-description: 'Astana Apartments - A510 Architekts'
+title: 'Astana Apartments - A510 Architects'
+description: 'Astana Apartments - A510 Architects'
 
 layout: project
 permalink: /projects/:path

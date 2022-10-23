@@ -1,6 +1,6 @@
 ---
-title: 'Sunvalley Villa - A510 Architekts'
-description: 'Sunvalley Villa - A510 Architekts'
+title: 'Sunvalley Villa - A510 Architects'
+description: 'Sunvalley Villa - A510 Architects'
 
 layout: project
 permalink: /projects/:path

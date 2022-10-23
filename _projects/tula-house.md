@@ -1,6 +1,6 @@
 ---
-title: 'Tula House - A510 Architekts'
-description: 'Tula House - A510 Architekts'
+title: 'Tula House - A510 Architects'
+description: 'Tula House - A510 Architects'
 
 layout: project
 permalink: /projects/:path

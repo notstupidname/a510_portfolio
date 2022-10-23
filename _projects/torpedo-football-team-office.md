@@ -1,6 +1,6 @@
 ---
-title: 'Torpedo Football Team Office - A510 Architekts'
-description: 'Torpedo Football Team Office - A510 Architekts'
+title: 'Torpedo Football Team Office - A510 Architects'
+description: 'Torpedo Football Team Office - A510 Architects'
 
 layout: project
 permalink: /projects/:path

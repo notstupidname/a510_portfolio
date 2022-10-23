@@ -1,6 +1,6 @@
 ---
-title: 'Christmass House - A510 Architekts'
-description: 'Christmass House - A510 Architekts'
+title: 'Christmass House - A510 Architects'
+description: 'Christmass House - A510 Architects'
 
 layout: project
 permalink: /projects/:path

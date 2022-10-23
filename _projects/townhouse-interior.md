@@ -1,6 +1,6 @@
 ---
-title: 'Townhouse Interior - A510 Architekts'
-description: 'Townhouse Interior - A510 Architekts'
+title: 'Townhouse Interior - A510 Architects'
+description: 'Townhouse Interior - A510 Architects'
 
 layout: project
 permalink: /projects/:path

@@ -1,6 +1,6 @@
 ---
-title: 'Krasnaya Polyana Interior - A510 Architekts'
-description: 'Krasnaya Polyana Interior - A510 Architekts'
+title: 'Krasnaya Polyana Interior - A510 Architects'
+description: 'Krasnaya Polyana Interior - A510 Architects'
 
 layout: project
 permalink: /projects/:path

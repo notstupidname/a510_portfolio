@@ -1,6 +1,6 @@
 ---
-title: 'Helvetia House - A510 Architekts'
-description: 'Helvetia House - A510 Architekts'
+title: 'Helvetia House - A510 Architects'
+description: 'Helvetia House - A510 Architects'
 
 layout: project
 permalink: /projects/:path

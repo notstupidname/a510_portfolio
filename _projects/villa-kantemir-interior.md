@@ -1,6 +1,6 @@
 ---
-title: 'Villa Kantemir Interior - A510 Architekts'
-description: 'Villa Kantemir Interior - A510 Architekts'
+title: 'Villa Kantemir Interior - A510 Architects'
+description: 'Villa Kantemir Interior - A510 Architects'
 
 layout: project
 permalink: /projects/:path
