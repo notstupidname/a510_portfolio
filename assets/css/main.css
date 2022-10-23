@@ -424,6 +424,7 @@ main {
     grid-template-columns: repeat(6, 1fr);
     grid-auto-flow: dense;
     gap: 1rem;
+    width: 100%;
 }
 
 .complex-grid .xxl {
