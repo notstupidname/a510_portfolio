@@ -31,9 +31,12 @@
             {%-for file in site.static_files-%}
                 {%-assign path_list = file.path | split: '/'-%}
                 {%-assign path_name = path_list | last-%}
+                {%-assign path_dir = path_list[-2]-%}
                 {%-assign path_name = path_name | slice: 0, name.size-%}
                 {%-if path_name == name-%}
-                    {%-assign img_array = img_array | push: file.path-%}
+                   {%- if path_dir == name -%}
+                        {%-assign img_array = img_array | push: file.path-%}
+                   {%- endif -%}
                 {%-endif-%}
             {%-endfor-%}
             {%- assign tmp_array = '' | split: ','-%}
