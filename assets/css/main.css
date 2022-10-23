@@ -343,7 +343,7 @@ main {
 }
 
     #contacts h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin: 2rem 0 1rem;
     }
 
@@ -352,7 +352,7 @@ main {
     }
 
     #contacts a {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     #contacts .icons {
