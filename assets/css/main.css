@@ -506,7 +506,8 @@ main {
 
     .gallery img {
         max-height: 90vh;
-        inline-size: auto;
+        width: max-content;
+        margin: auto;
     }
 
 /* Images Fade-in */

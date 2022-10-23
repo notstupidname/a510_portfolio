@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+    <body class="is-loading">
+        {% include header.html %}
+        {%- assign sorted_projects = site.projects | sort: "weight" -%}
+        <main>
+            <div class="projects complex-grid">
+                {%- assign seq = 'big small small medium medium xxl small big small' | split: " " -%}
+                {%- for project in sorted_projects -%}
+                {%- assign url_list = project.url | split: '/' -%}
+                {%- assign name = url_list | last -%}
+                {%- assign position = forloop.index0 -%}
+                {%- if position > 8 -%}
+                    {%- assign position = position | modulo: 9  -%}
+                {%- endif -%}
+                <a href="{{project.url}}" class="{{seq[position]}}{%if forloop.index > 5%} hidden{%endif%}">
+                    <div>
+                        <img alt="{{project.name}}-photo-1" title="{{project.name}}-photo-1" {%- if forloop.index > 5 -%}loading="lazy" {%- endif -%}width="2560" height="1440" src="/images/projects/{{name}}/{{name}}-01_2560w.jpg" srcset="/images/projects/{{name}}/{{name}}-01_2560w.jpg 2560w, /images/projects/{{name}}/{{name}}-01_1920w.jpg 1920w, /images/projects/{{name}}/{{name}}-01_1600w.jpg 1600w, /images/projects/{{name}}/{{name}}-01_1200w.jpg 1200w, /images/projects/{{name}}/{{name}}-01_800w.jpg 800w" sizes="(max-width: 1600px) 90vw, 75vw">
+                    </div>
+                    <div class="caption">
+                        <h2>{{project.name}}</h2>
+                        <p>{{project.type}}</p>
+                    </div>
+                </a>
+                {%- endfor -%}
+            </div>
+            <a class="top hidden" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                    <title>Arrow</title>
+                    <style>
+                        path {
+                            color: #000;
+                            stroke: currentColor;
+                        }
+
+                        @media (prefers-color-scheme: dark) {
+                            path {
+                                color: #fff
+                            }
+                        }
+                    </style>
+                    <path d="M500 50v900m0-900l300 300M500 50l-300 300" />
+                </svg>
+            </a>
+        </main>
+        {% include footer.html %}
+        {% include scripts.html %}
+    </body>
+</html>
