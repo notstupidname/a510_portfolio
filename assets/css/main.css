@@ -492,23 +492,28 @@ main {
     align-items: center;
     text-align: center;
     margin-bottom: 2rem;
+    width: 100%;
 }
 
     .hero img {
         max-height: calc(100vh - 13.25rem);
-        inline-size: auto;
+        width: 100%;
+        margin: auto;
+        object-fit: contain;
     }
 
 .gallery {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: 100%;
 }
 
     .gallery img {
         max-height: 90vh;
-        width: max-content;
+        width: 100%;
         margin: auto;
+        object-fit: contain;
     }
 
 /* Images Fade-in */
