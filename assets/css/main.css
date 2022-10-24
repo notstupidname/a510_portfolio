@@ -400,6 +400,7 @@ main {
 .projects .caption {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .projects .caption > * {
@@ -496,6 +497,28 @@ main {
                 transform: rotate(180deg);
             }
 
+    }
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 4rem 0;
+}
+
+    .button:hover svg {
+        transform: translateX(10px);
+    }
+
+    .button span {
+        font-size: 1.5rem;
+    }
+
+    .button svg {
+        height: 2rem;
+        width: 2rem;
+        stroke-width: 50px;
+        transition: all .3s ease;
     }
 
 /* Project page */

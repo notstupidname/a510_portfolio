@@ -8,7 +8,7 @@
             <path id="sh-4" d="M50 455v-253.1l202.5 -151.9 202.5 151.9v253.1z" transform="translate(495,495)" />
         </svg>
     </a>
-    <a href="/" {%if page.url=='/' %} class="current" {%endif%}>Projects</a>
+    <a href="/projects/" {%if page.url contains 'projects' %} class="current" {%endif%}>Projects</a>
     <p>/</p>
     <a href="/contact" {%if page.url contains 'contact' %} class="current" {%endif%}>Contact</a>
 </header>
