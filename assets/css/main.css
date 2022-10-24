@@ -567,12 +567,7 @@ a.top {
     height: 3rem;
     stroke-width: 30px;
     margin-top: 2rem;
-    /* opacity: 0.75; */
 }
-
-    /* a.top:hover {
-        opacity: 0.5;
-    } */
 
 /* Loader */
 
@@ -633,9 +628,6 @@ body:after {
     top: 0;
     width: 100%;
     z-index: -1;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 3rem;
 }
 
 
