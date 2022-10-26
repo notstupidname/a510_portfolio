@@ -39,13 +39,18 @@
         body.classList.remove('transition');
     
         // Fade-in animation
+        const observerOptions = {
+            threshold: [0.25]
+        };
+
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('show');
+                    observer.unobserve(entry.target);
                 }
             });
-        });
+        }, observerOptions);
 
         const hiddenDrawings = document.querySelectorAll('.hidden');
         hiddenDrawings.forEach((el) => observer.observe(el));
